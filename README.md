@@ -16,4 +16,5 @@ https://stackoverflow.com/questions/17615260/the-certificate-chain-was-issued-by
 
 On command<br>
 ```Add-Migration "Initial migration"```<br>
+Error
 ```Unable to create a 'DbContext' of type ''. The exception 'The property or navigation 'Dish' cannot be added to the 'DishIngredient' type because a property or navigation with the same name already exists on the 'DishIngredient' type.' was thrown while attempting to create an instance. For the different patterns supported at design time, see https://go.microsoft.com/fwlink/?linkid=851728```
