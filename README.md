@@ -20,16 +20,3 @@ Error<br>
 ```Unable to create a 'DbContext' of type ''. The exception 'The property or navigation 'Dish' cannot be added to the 'DishIngredient' type because a property or navigation with the same name already exists on the 'DishIngredient' type.' was thrown while attempting to create an instance. For the different patterns supported at design time, see https://go.microsoft.com/fwlink/?linkid=851728```<br>
 Had to change the variable that were passed for making the data entries for the DishIngrediants
 
-Then ran into the fallowing.<br>
-```
-PM> Update Database
-Update : The term 'Update' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-At line:1 char:1
-+ Update Database
-+ ~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Update:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
- ```
-From this link
-https://learn.microsoft.com/en-us/ef/core/cli/dotnet
-```dotnet tool install --global dotnet-ef```
